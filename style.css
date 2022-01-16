@@ -1,0 +1,770 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.body{
+    background-color: #A5D692 ;
+    min-width: 320px;
+    font-family: Helvetica, sans-serif;
+}
+.footer{
+    background-color: white;
+    min-width: 320px;
+}
+
+/*schriften*/
+@media only screen and (max-width: 2000px)
+{
+.type1{
+    font-size:  60px; ;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    top: 2em; 
+    float: left;}
+    
+@media only screen and (max-width: 320px)
+{
+    .type1{
+    font-size: 25px;
+    top: 1em;     
+} }
+.type2{
+    font-size:  25px;
+    line-height: 1.6;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    float: left;
+    right: 21.5em;
+    top: 15em;
+}
+@media only screen and (max-width: 320px)
+{
+    .type2{
+        font-size: 15px;
+        top:3em;
+    }  
+}
+.type3{
+    font-size:  40px;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    top: 3em;
+    float: right;
+    padding-right: 5%;
+}
+@media only screen and (max-width: 320px)
+{
+    .type3{
+        font-size:  25px;
+        top: 1.5em;
+    } 
+}
+.type4{
+    font-size:  20px;
+    line-height: 1.4;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    top: 6.5em;
+    padding-left: 58.5%;
+}
+@media only screen and (max-width: 320px)
+{
+    .type4{
+    font-size:  15px;
+    top: 3.5em;
+    padding-left: 0%;
+    }
+}
+.type5{
+    font-size:  25px; ;
+    line-height: 2;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    top: 6.5em;
+    padding-left: 58.5%;
+}
+@media only screen and (max-width: 320px)
+{
+    .type5{
+    font-size:  20px;
+    top: 3.5em;
+    padding-left: 0%;
+}}
+.type6{
+    font-size:  35px; ;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    bottom: 5em;
+}
+@media only screen and (max-width: 320px)
+{
+    .type6{
+        font-size:  25px; ;
+        bottom: 2em;
+    }
+}
+.type7{
+    font-size:  25px; ;
+    line-height: 1.4;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    bottom: 6em;
+}
+@media only screen and (max-width: 320px)
+{
+    .type7{
+        font-size:  15px; ;
+        line-height: 1.1;
+        bottom: 3em;
+    }  
+}
+.type8{
+    font-size:  25px; ;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    top: 2em;
+}
+@media only screen and (max-width: 320px)
+{
+    .type8{
+        font-size:  20px; ;
+        top: 2em;
+    }  
+}
+.type9{
+    font-size:  35px; ;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    top: 2em;
+}
+@media only screen and (max-width: 320px)
+{
+    .type9{
+        font-size:  25px; ;
+        top: 2.5em;
+    }
+}
+.type10{
+    font-size:  20px; ;
+    line-height: 1.4;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    top: 2em;
+}
+@media only screen and (max-width: 320px)
+{
+    .type10{
+        font-size:  15px; ;
+        top: 2.5em;
+    }
+     
+}
+.type11{
+    font-size:  260px; ;
+    font-family: Helvetica, sans-serif;
+    color: #A5D692;
+    position: relative;
+    top: -0.5em;
+}
+@media only screen and (max-width: 320px)
+{
+    .type11{
+        font-size:  130px; 
+        top: -0.2em;
+    }   
+}
+.type12{
+    font-size:  85px; ;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    top: -3em;
+    padding-left: 10%;
+}
+@media only screen and (max-width: 320px)
+{
+    .type12{
+        font-size:  30px; ;
+        top: -3em;
+        padding-left: 17%;
+    }
+}
+.type13{
+    font-size:  30px; ;
+    line-height: 1.4;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    top: -9em;
+    padding-left: 10%;
+}
+@media only screen and (max-width: 320px)
+{
+    .type13{
+        font-size:  15px; ;
+        line-height: 1.4;
+        top: -6em;
+        padding-left: 18%;
+    }
+}
+.type14{
+    font-size:  55px;
+    line-height: 1.8;;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    top: -3em;
+    padding-left: 5%;
+}
+@media only screen and (max-width: 320px)
+{
+    .type14{
+        font-size:  25px;
+        top: 1em;
+        padding-left:5%;
+    }  
+}
+.type15{
+    font-size:  25px;
+    line-height: 1.8;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    top: -7.5em;
+    padding-left: 5%;
+}
+@media only screen and (max-width: 320px)
+{
+    .type15{
+        font-size:  20px;
+        line-height: 1.4;
+        top: 2em;
+        Padding-left: 5%;
+    }
+}
+.type16{
+    font-size:  25px;
+    line-height: 1.6;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    top: 1em;
+    padding-left:9%;
+    cursor: pointer;
+}
+@media only screen and (max-width: 320px)
+{
+    .type16{
+        font-size:  20px;
+        top: 1em;
+        padding: left 9%;
+    }
+}
+.type17{
+    font-size:  20px;
+    line-height: 1.6;
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+    position: relative;
+    top: 3em;
+    padding-left: 9%;
+}
+@media only screen and (max-width: 320px)
+{
+    .type17{
+        font-size:  12px;
+        line-height: 1.6;
+        top: 6em;
+        padding-left: 9%;
+    }
+}
+.type18{
+    font-size:  20px;
+    line-height: 1.6;
+    font-family: Helvetica, sans-serif;
+    color: #83aa74;
+    font-style: normal;
+    position: relative;
+    top: 3em;
+    padding-left:9%;
+    cursor: pointer;
+}
+@media only screen and (max-width: 320px)
+{
+    .type18{
+        font-size:  12px;
+        line-height: 1.6;
+        top: 6em;
+        padding: left 9%;
+    }
+}
+.type19{
+    font-size:  15px;
+    line-height: 1.6;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    top: 3em;
+    padding-left: 9%;
+    cursor: pointer;
+}
+@media only screen and (max-width: 320px)
+{
+    .type19{
+        font-size:  10px;
+        line-height: 1.6;
+        font-family: Helvetica, sans-serif;
+        position: relative;
+        top: 7em;
+        padding-left: 9%;
+    } 
+}
+/*schriften ende*/
+/*container*/
+.container1{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.container2{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container3{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 25%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-image: url("Hintergrund_Heimat.png");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+@media only screen and (max-width: 320px)
+{
+    .container3{ 
+        height: 0;  }
+}
+.container4{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container5{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 9.3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-image: url("Hintergrund2.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-width: 320px)
+{
+    .container5{ 
+        height: 0;  }
+}
+.container6{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 25%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-image: url("Hintergrund_Heimat.png");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+@media only screen and (max-width: 320px)
+{
+    .container6{ 
+        height: 0;  }
+}
+/*container ende*/
+.CBD{
+    float: left;
+}
+.logo{
+    width: 10%;
+    cursor: pointer;
+    margin: 30px 0;
+    padding-left: 2%;
+}
+@media only screen and (max-width: 320px)
+{
+    .logo{
+        width: 20%;
+        cursor: pointer;
+        margin: 24px 0;
+        padding-left: 5%;
+        margin-left: 7em;
+    }
+}
+/*Bilder & Icons*/
+.Image1{
+   width: 50%; 
+   float: right;
+   margin-top: -7%;
+}
+@media only screen and (max-width: 320px)
+{
+    .Image1{
+        width: 80%; 
+        float: left;
+        margin-top: 16%;
+        margin-left: -3.5em;
+     }
+}
+.Image2{
+    width: 50%; 
+    float: left;
+    margin-top: -18%;
+ }
+ @media only screen and (max-width: 320px)
+ {
+    .Image2{
+        width: 0%; 
+     }
+ }
+.image6{
+    width: 40%;
+    float: right;
+    margin-top: -20em;
+}
+@media only screen and (max-width: 320px)
+ {
+    .image6{
+        width: 45%;
+        margin-top: 2%;
+        margin-right: 41%;
+    }
+ }
+.image7{
+    width: 23.2%;
+    float: right;
+    margin-top: -32%;
+    padding-right: 2.5%;
+}
+@media only screen and (max-width: 320px)
+{
+    .image7{
+        width: 70%;
+        margin-top: -19%;
+        margin-right: 14.5%;
+    }
+}
+.auswahl1{
+    width: 140%;
+    margin-top: -16em;
+}
+@media only screen and (max-width: 320px)
+{
+    .auswahl1{
+        width: 100%;
+        margin-bottom: -9em;
+        margin-left: -140%;
+    }   
+}
+figure {
+    float: right;
+    width: 100%;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    text-indent: 0;
+    margin: 0.5em;
+    padding: 0.2em;
+    font-family: Helvetica, sans-serif;
+}
+
+.Social1{
+    width: 4%;
+    float: right;
+    margin-top: -19em;
+    margin-right: 25%;
+}
+@media only screen and (max-width: 320px)
+{
+    .Social1{
+    width: 4%;
+    margin-top: -11.6em;
+    margin-right: 82.5%;
+}   
+}
+.Social2{
+    width: 4%;
+    float: right;
+    margin-top: -19em;
+    margin-right: 18%;
+}
+@media only screen and (max-width: 320px)
+{
+    .Social2{
+        width: 25%;
+        margin-top: -11.6em;
+        margin-right: 72.5%;
+    }
+}
+.Social3{
+    width: 4%;
+    float: right;
+    margin-top: -19em;
+    margin-right: 11%;
+}
+@media only screen and (max-width: 320px)
+{
+    .Social3{
+        width: 25%;
+        margin-top: -11.6em;
+        margin-right: 62.5%;
+    } 
+}
+
+/*Bilder & Icons ende*/
+* {
+    box-sizing: border-box;
+  }
+  .row > .column {
+    padding: 5px;
+    float:left;
+    cursor: pointer;
+    padding-left: 10%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+    float: right;
+    width: 23%;
+  }
+  .zoom {
+    padding: 20px;
+    transition: transform .2s;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.12); /* IE 9 */
+    -webkit-transform: scale(1.12); /* Safari 3-8 */
+    transform: scale(1.12); 
+  }
+
+/*Buttons*/
+.button {
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: relative;
+    top: 14em;
+    margin-left: 8%;
+  }
+  @media only screen and (max-width: 320px)
+  {
+    .button {
+        font-size: 10px;
+        top: 17em;
+        margin-left: 51%;
+      }
+  }
+  
+  .button1 {
+    background-color: black; 
+    color: #A5D692; 
+    border: 3px solid black;
+  }
+  
+  .button1:hover {
+    background-color: transparent;
+    color: black;
+    border: 3px solid black;
+  }
+  
+  .buttonProdukte {
+    border: none;
+    color: #A5D692;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: relative;
+    bottom: -10em;
+    left: -24%;
+  }
+  @media only screen and (max-width: 320px)
+  {
+    .buttonProdukte {
+        font-size: 10px;
+        bottom: -25em;
+       left: 0%;
+      } 
+  }
+  .button2 {
+    background-color: black; 
+    color: #A5D692; 
+    border: 3px solid black;
+  }
+  
+  .button2:hover {
+    background-color: transparent;
+    color: black;
+    border: 3px solid black;
+  }
+  .buttonNachh2 {
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    bottom: -7.5em;
+    margin-right: -1%;
+  }
+  @media only screen and (max-width: 320px)
+  {
+    .buttonNachh2 {
+        font-size: 14px;
+        bottom: -7.5em;
+        margin-right: -1%;
+      }
+  }
+  .button3 {
+    background-color: transparent;
+    color: black;
+    border: 3px solid black;
+  }
+  .buttonNachh {
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: relative;
+    bottom: -7.5em;
+    margin-right: 7%;
+  }
+  @media only screen and (max-width: 320px)
+  {
+    .buttonNachh {
+        font-size: 14px;
+        bottom: -5.5em;
+        margin-right: 6%;
+      }
+  }
+  .button4 {
+    background-color: black; 
+    color: #A5D692; 
+    border: 3px solid black;
+  }
+  .button4:hover {
+    background-color: transparent;
+    color: black;
+    border: 3px solid black;
+  }
+
+  .input{
+border: 2px solid #000;
+padding: 1rem 2rem;
+width: 40%;
+font-size: 1rem;
+position: relative;
+bottom: 8em;
+margin-left: 5%;}
+
+@media only screen and (max-width: 320px)
+{
+    .input{
+        width: 90%;
+        bottom: -5em;
+        margin-left: 5%;}
+}
+
+.buttonabo{
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: relative;
+    bottom: 8em;
+}
+@media only screen and (max-width: 320px)
+{
+    .buttonabo{
+        font-size: 14px;
+        bottom: -6.5em;
+    Margin-left: 5%
+    }
+}
+.abo1{
+    background-color: black; 
+    color: white; 
+    border: 2px solid black;
+}
+.abo1:hover{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+/*Buttons ende*/
+}
+
