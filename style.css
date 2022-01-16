@@ -18,18 +18,18 @@
 @media only screen and (max-width: 2000px)
 {
 .type1{
-    font-size:  60px; ;
+    font-size:  60px;
     font-family: Helvetica, sans-serif;
     position: relative;
     top: 2em; }
 @media only screen and (max-width: 320px)
 {
     .type1{
-    font-size:  25px; ;
+    font-size: 25px;
     top: 1em;     
 } }
 .type2{
-    font-size:  25px; ;
+    font-size: 25px;
     line-height: 1.6;
     font-family: Helvetica, sans-serif;
     position: relative;
@@ -38,7 +38,7 @@
 @media only screen and (max-width: 320px)
 {
     .type2{
-        font-size:  15px; ;
+        font-size: 15px;
         top:3em;
     }  
 }
@@ -74,7 +74,7 @@
     }
 }
 .type5{
-    font-size:  25px; ;
+    font-size:  25px;
     line-height: 2;
     font-family: Helvetica, sans-serif;
     position: relative;
@@ -84,12 +84,12 @@
 @media only screen and (max-width: 320px)
 {
     .type5{
-    font-size:  20px;
+    font-size: 20px;
     top: 3.5em;
     padding-left: 0%;
 }}
 .type6{
-    font-size:  35px; ;
+    font-size: 35px;
     font-family: Helvetica, sans-serif;
     position: relative;
     bottom: 5em;
@@ -97,12 +97,12 @@
 @media only screen and (max-width: 320px)
 {
     .type6{
-        font-size:  25px; ;
+        font-size:  25px;
         bottom: 2em;
     }
 }
 .type7{
-    font-size:  25px; ;
+    font-size:  25px;
     line-height: 1.4;
     font-family: Helvetica, sans-serif;
     position: relative;
@@ -111,13 +111,13 @@
 @media only screen and (max-width: 320px)
 {
     .type7{
-        font-size:  15px; ;
+        font-size:  15px;
         line-height: 1.1;
         bottom: 3em;
     }  
 }
 .type8{
-    font-size:  25px; ;
+    font-size:  25px;
     font-family: Helvetica, sans-serif;
     position: relative;
     top: 2em;
@@ -125,12 +125,12 @@
 @media only screen and (max-width: 320px)
 {
     .type8{
-        font-size:  20px; ;
+        font-size:  20px;
         top: 2em;
     }  
 }
 .type9{
-    font-size:  35px; ;
+    font-size:  35px;
     font-family: Helvetica, sans-serif;
     position: relative;
     top: 2em;
@@ -138,12 +138,12 @@
 @media only screen and (max-width: 320px)
 {
     .type9{
-        font-size:  25px; ;
+        font-size:  25px;
         top: 2.5em;
     }
 }
 .type10{
-    font-size:  20px; ;
+    font-size:  20px;
     line-height: 1.4;
     font-family: Helvetica, sans-serif;
     position: relative;
@@ -152,13 +152,13 @@
 @media only screen and (max-width: 320px)
 {
     .type10{
-        font-size:  15px; ;
+        font-size:  15px;
         top: 2.5em;
     }
      
 }
 .type11{
-    font-size:  260px; ;
+    font-size:  260px;
     font-family: Helvetica, sans-serif;
     color: #A5D692;
     position: relative;
@@ -172,7 +172,7 @@
     }   
 }
 .type12{
-    font-size:  85px; ;
+    font-size:  85px;
     font-weight: bold;
     font-family: Helvetica, sans-serif;
     color: white;
@@ -183,13 +183,13 @@
 @media only screen and (max-width: 320px)
 {
     .type12{
-        font-size:  30px; ;
+        font-size:  30px;
         top: -3em;
         padding-left: 17%;
     }
 }
 .type13{
-    font-size:  30px; ;
+    font-size:  30px;
     line-height: 1.4;
     font-family: Helvetica, sans-serif;
     color: white;
@@ -200,7 +200,7 @@
 @media only screen and (max-width: 320px)
 {
     .type13{
-        font-size:  15px; ;
+        font-size:  15px;
         line-height: 1.4;
         top: -6em;
         padding-left: 18%;
@@ -208,7 +208,7 @@
 }
 .type14{
     font-size:  55px;
-    line-height: 1.8;;
+    line-height: 1.8;
     font-family: Helvetica, sans-serif;
     position: relative;
     top: -3em;
