@@ -22,7 +22,7 @@
     font-family: Helvetica, sans-serif;
     position: relative;
     top: 2em; }
-@media only screen and (device-width: 320px)
+@media only screen and (min-width: 320px)
 {
     .type1{
     font-size:  25px; ;
@@ -35,7 +35,7 @@
     position: relative;
     top:5em;
 }
-@media only screen and (device-width: 320px)
+@media only screen and (max-width: 320px)
 {
     .type2{
         font-size:  15px; ;
@@ -50,7 +50,7 @@
     float: right;
     padding-right: 5%;
 }
-@media only screen and (device-width: 320px)
+@media only screen and (min-width: 320px)
 {
     .type3{
         font-size:  25px;
@@ -65,7 +65,7 @@
     top: 6.5em;
     padding-left: 58.5%;
 }
-@media only screen and (device-width: 320px)
+@media only screen and (min-width: 320px)
 {
     .type4{
     font-size:  15px;
@@ -81,7 +81,7 @@
     top: 6.5em;
     padding-left: 58.5%;
 }
-@media only screen and (device-width: 320px)
+@media only screen and (min-width: 320px)
 {
     .type5{
     font-size:  20px;
@@ -94,7 +94,7 @@
     position: relative;
     bottom: 5em;
 }
-@media only screen and (device-width: 320px)
+@media only screen and (min-width: 320px)
 {
     .type6{
         font-size:  25px; ;
